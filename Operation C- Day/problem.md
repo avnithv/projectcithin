@@ -10,6 +10,8 @@ The first line of the input will be an integer **Q**, the number of queries. The
 
 Print **Q** lines, where the **i**-th line is the number of days between today and the next _A Day_, inclusive, in the **i**-th query. 
 
+Print all answers modulo **10<sup>12</sup> + 39**.
+
 Limits:
 - 1 $\le$ **Q** $\le$ 1000
 - 1 $\le$ **N** $\le$ 100
