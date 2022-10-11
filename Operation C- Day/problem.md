@@ -34,3 +34,6 @@ Sample Output:
 20
 60
 ```
+Make sure to print answers modulo **10<sup>12</sup> + 39**
+
+Problem author: Avnith Vijayram
