@@ -12,12 +12,12 @@ Print **Q** lines, where the **i**-th line is the number of days between today a
 
 Print all answers modulo **10<sup>12</sup> + 39**.
 
-Limits:
+### Limits:
 - 1 $\le$ **Q** $\le$ 1000
 - 1 $\le$ **N** $\le$ 100
 - 1 $\le$ **n<sub>i</sub>** $\le$ 10<sup>12</sup>
 
-Sample Input:
+### Sample Input:
 ```
 3
 2
@@ -28,7 +28,7 @@ Sample Input:
 1 3 5 6 10
 ```
 
-Sample Output:
+### Sample Output:
 ```
 15
 20
