@@ -6,18 +6,19 @@ Lopital has a rotation system for its military with its allies. In particular, i
 
 It just so happens that yesterday was such an _A Day_. Cithin is furious at having missed out on such an opportunity. He asks you to find how many days there will be between today and the next _A Day_, inclusive.
 
+### Input:
 The first line of the input will be an integer **Q**, the number of queries. The first line of each query will contain the integer **N**. The next line will contain **N** integers separated by spaces, where the **i**-th integer is **n<sub>i</sub>**. 
 
-Print **Q** lines, where the **i**-th line is the number of days between today and the next _A Day_, inclusive, in the **i**-th query. 
-
-Print all answers modulo **10<sup>12</sup> + 39**.
+### Output:
+Print **Q** lines, where the **i**-th line is the number of days between today and the next _A Day_, inclusive, in the **i**-th query. Print all answers modulo **10<sup>12</sup> + 39**.
 
 ### Limits:
 - 1 $\le$ **Q** $\le$ 1000
 - 1 $\le$ **N** $\le$ 100
 - 1 $\le$ **n<sub>i</sub>** $\le$ 10<sup>12</sup>
 
-### Sample Input:
+### Example:
+#### Sample Input:
 ```
 3
 2
@@ -27,8 +28,7 @@ Print all answers modulo **10<sup>12</sup> + 39**.
 5
 1 3 5 6 10
 ```
-
-### Sample Output:
+#### Sample Output:
 ```
 15
 20
