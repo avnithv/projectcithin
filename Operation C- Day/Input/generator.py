@@ -16,7 +16,7 @@ for i in range(2, M + 1):
         seeve[i] = True
 np = len(primes)
 
-with open("input.txt", 'w') as wr:
+with open(INPUT_FILE_NAME, 'w') as wr:
     Q = random.randrange(Qmx - diff, Qmx)
     wr.write(str(Q) + "\n")
     for i in range(Q):
