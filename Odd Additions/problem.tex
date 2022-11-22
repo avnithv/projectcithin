@@ -1,0 +1,40 @@
+\begin{problem}{Odd Additions}{standard input}{standard output}{1 second}{256 megabytes}
+
+Cithin has noticed something interesting about addition of odd and even numbers:
+\begin{itemize}
+\item odd + odd = even
+\item even + odd = odd
+\item odd + even = odd
+\item even + even = even
+\end{itemize}
+Cithin believes that odd numbers are superior to even numbers. Because of this, he refuses to add two even numbers. 
+
+Find the number of positive integer sequences with a sum of $N$ that Cithin will be able to evaluate. 
+
+Given a sequence of integers $a_{1}...a_{k}$ $(k > 1)$, Cithin can evaluate its sum if $a_{1} + a_{2} + ... + a_{i-1} + a_{i}$ and $a_{i+1}$ are not both even for all $1 \leq i \leq k - 1$.
+
+\InputFile
+The input will contain a single integer $N$ ($1 \leq N \leq 1000$).
+
+\OutputFile
+Print a single integer representing the number of positive integer sequences adding up to $N$ that Cithin will be able to evaluate. Since the answer may be large, output it modulo $10^9 + 7$.
+
+\Examples
+
+\begin{example}
+\exmpfile{example.01}{example.01.a}%
+\exmpfile{example.02}{example.02.a}%
+\end{example}
+
+\Note
+For the first example, the sums are:
+\begin{itemize}
+\item $1 + 1 + 1 + 1$
+\item $2 + 1 + 1$
+\item $1 + 2 + 1$
+\item $3 + 1$
+\item $1 + 3$
+\end{itemize}
+Note that $4$ is not included as it is not a sum of integers.
+
+\end{problem}
